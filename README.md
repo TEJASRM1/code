@@ -236,5 +236,5 @@ CategoriesController.cs
                 Name = request.Name,
                 UrlHandle = request.UrlHandle
             };
-             await categoryRepository.createAsync(category);
+             await categoryRepository.CreateAsync(category);
 
