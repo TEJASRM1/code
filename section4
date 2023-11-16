@@ -1,1 +1,8 @@
+API
+------------------
+open -> categoriescontroller.cs
+[HttpGet]
+
+public async Task<IActionResult> GetAllCategories()
+{}
 
